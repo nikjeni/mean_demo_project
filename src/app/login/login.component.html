@@ -1,0 +1,43 @@
+<div data-vide-bg="assets/video/social2">
+  <div class="center-container">
+    <!--header-->
+    <!-- <div class="header-w3l">
+      <h1>Awesome Login Form</h1>
+    </div> -->
+    <!--//header-->
+    <!--main-->
+    <div class="main-content-agile">
+      <div class="wthree-pro">
+        <h2>Login Now</h2>
+      </div>
+      <div class="sub-main-w3">
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
+          <input placeholder="E-mail" type="email" required formControlName="userEmail">
+          <span class="icon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+          <input placeholder="Password" type="password" required formControlName="userPassword">
+          <span class="icon2"><i class="fa fa-unlock" aria-hidden="true"></i></span>
+          <div class="rem-w3">
+            <span class="check-w3"><input type="checkbox" />Remember Me</span>
+            <a href="#">Forgot Password?</a>
+            <div class="clear"></div>
+          </div>
+          <div class="navbar-right social-icons">
+            <ul>
+              <li><a href="#" class="fa fa-facebook icon-border facebook"> </a></li>
+              <li><a href="#" class="fa fa-twitter icon-border twitter"> </a></li>
+              <li><a href="#" class="fa fa-google-plus icon-border googleplus"> </a></li>
+              <li><a href="#" class="fa fa-pinterest icon-border rss"> </a></li>
+            </ul>
+          </div>
+          <input type="submit" value="Login">
+        </form>
+      </div>
+    </div>
+    <!--//main-->
+    <!--footer-->
+    <div class="footer">
+      <!-- <p>&copy; 2017 Awesome Login Form. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p> -->
+    </div>
+    <!--//footer-->
+  </div>
+</div>
